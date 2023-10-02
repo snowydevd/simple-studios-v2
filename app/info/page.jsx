@@ -45,7 +45,7 @@ export default function Info() {
                       en la innovación y la usabilidad, estamos aquí para llevar
                       tu presencia en línea al siguiente nivel.
                     </p>
-                    <SimpleButton href="./services">Comenzar</SimpleButton>
+                    <SimpleButton href="./plans">Comenzar</SimpleButton>
                   </div>
                 </div>
 
