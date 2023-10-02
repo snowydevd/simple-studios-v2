@@ -1,0 +1,60 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* :root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+  }
+}
+
+body {
+  color: rgb(var(--foreground-rgb));
+  background: linear-gradient(
+      to bottom,
+      transparent,
+      rgb(var(--background-end-rgb))
+    )
+    rgb(var(--background-start-rgb));
+} */
+
+.titulo-gradiente {
+  /* background: #991BCF;
+  background: linear-gradient(to right, #991BCF 0%, #2E53CF 40%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; */
+  text-shadow: -14px 4px 18px rgba(50, 25, 241, 0.86);
+}
+
+.asl-gradient {
+  background: #a11ba6;
+  background: linear-gradient(to right, #a11ba6 0%, #601266 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+::-webkit-scrollbar {
+  margin-right: 1px;
+  width: 3px;
+}
+
+/* Track */
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  border-radius: 3px;
+  background: #6644e2;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #3718a8;
+}
